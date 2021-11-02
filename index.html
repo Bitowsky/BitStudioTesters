@@ -22,24 +22,38 @@
 			.area {
 				margin: 0;
 				padding: 5px;
-				background-color: lightgray;
+				background-color: white;
 			}
 			.area2 {
 				margin: 0;
 				padding: 10px;
 				background-color: darkgray;
 			}
+			
+			@keyframes logo {
+			  0% { transform: translate(0px, 0px) rotate(0deg); }
+			  50% { transform: translate(0px, 20px) rotate(0deg); }
+			  100% { transform: translate(0px, 0px) rotate(0deg); }
+			}
+			
+			img:hover {
+			  animation: pulse 2s;
+			  animation-iteration-count: infinite;
+			}
+			
+			@keyframes pulse {
+			  0% {height:130px; width: 450px}
+			  50% {height:150px; width: 490px; transform: translate(0px, -7px)}
+			  100% {height:130px; width: 450px}
+			}
 		</style>
 	</head>
 	
-	<body style="background-image:url('bg.png'); background-size: 10%;">
-	<h1 align="center"><img src="bstlogo.png"></h1>
+	<body style="background-color:#111111"> <!-- style="background-image:url('bg.png'); background-size: 10%;" -->
+	<h1 align="center"><img src="bstlogo.png" style="animation: logo 5s;animation-iteration-count: infinite;"></h1>
+	<div></div>
 	<br>
-	<article class="area">
-	<hr>
-	<h1 align="center">Welcome to the Bit Studio Testers!</h1>
-	<hr>
-	</article>
+	<h1 align="center" style="color:white; font-size:48px">Welcome to the Bit Studio Testers!</h1>
 	<br>
 	<article class="area2">
 		<h1 align="center">Game List</h1>
@@ -52,12 +66,12 @@
 		<hr>
 		<h2 align="center">Mafia</h2>
 		<p align="center"><img src="mainlogo.png"></p>
-		<h2 align="center">Translation File</h2>
+		<h2 align="center">Translation File (not avaliable yet)</h2>
 	</article>
 	<br>
 	<br>
 	<br>
 	<br>
-	<h5 align="center">Nothing here...</h5>
+	<h5 align="center" style="color:#111111">Nothing here...</h5>
 	</body>
 </html>
