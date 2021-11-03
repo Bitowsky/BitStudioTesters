@@ -1,0 +1,10 @@
+{
+"c2array":true,
+"size":[2,2,1],
+"data":[[
+
+["English"], ["file.xml"]
+],[
+["Polski"], ["pl.xml"]
+]]
+}

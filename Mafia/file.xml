@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<file>
+	<test>aaa</test>
+	
+	<set>
+		<maxplayers>Max players</maxplayers>
+		<chooseroles>Choose roles</chooseroles>
+		
+		<rolepack id="0">Standard - Classic roles for a classic players!</rolepack>
+		<rolepack id="1">Standard+ - Classic roles but without a Villagers, so everyone can have special abilieties!</rolepack>
+		<rolepack id="2">Custom - You can choose roles of your choice</rolepack>
+		
+		<lastwill>Last Will</lastwill>
+		<lastwillex>When a player is alive, they can leave their own note.\n\nIf the player dies, this note (a.k.a Last Will) will be revealed for everyone during the day.</lastwillex>
+		
+		<sg>CREATE ROOM</sg>
+		<pw>Please wait...</pw>
+		
+		<toomuch>Number of players is bigger than number of roles that you want in game. Add more roles or decrease number of players.</toomuch>
+		<toonotmuch>Number of roles that you want in game is bigger than number of players. Add more players or decrease number of roles.</toonotmuch>
+		<nomafia>There is no mafia roles added. You can't start game without this role.</nomafia>
+	</set>
+	
+	<settings>
+		<title>SETTINGS</title>
+		<remember>Remember: Some of the settings will be saved after exiting settings!</remember>
+		<lang>Game Language</lang>
+		<fps>Show FPS during game</fps>
+		<fs>Full Screen</fs>
+	</settings>
+	
+	<wait>
+		<croom>Creating a room...</croom>
+	
+		<roomcode>Your room code: </roomcode>
+		<stillwait>To start the game, you need {0} more player(s)</stillwait>
+		<playernumber>{0}/{1} players in room</playernumber>
+		<startgame>START GAME</startgame>
+		<w>Please wait...</w>
+	</wait>
+	
+	<peer>
+		<username>Type your username here\nWARNING: if there's a player with a nick like yours, it will get extended by special id.</username>
+		<username2>Your username...</username2>
+		<roomcode>Type Room Code that you see on Host Screen</roomcode>
+		<roomcode2>Type Room Code that you see on Host Screen</roomcode2>
+		<join>JOIN</join>
+		<toolongnick>YOUR USERNAME IS TOO LONG\n(MAX 16 CHARACTERS)</toolongnick>
+		<tooshortnick>YOUR USERNAME IS TOO SHORT\n(MIN 3 CHARACTERS)</tooshortnick>
+		<wrongroomcode>INCORRECT ROOM CODE.\nIT MUST CONTAIN 4 CHARACTERS</wrongroomcode>
+		
+		<con>CONNECTING...</con>
+		<norooms>THERE'S NO ROOM WITH THAT CODE</norooms>
+		
+		<inforoom>Joined as {0}\n\nRoom Code: {1}\n\nNumber of players in this room: {2}\n\nWait until there will be enough players to start a game.</inforoom>
+
+		<tip id="1">TIP 1</tip>
+		<tip id="2">TIP 2</tip>
+		<tip id="3">TIP 3</tip>
+		<tip id="4">TIP 4</tip>
+		<tip id="5">TIP 5</tip>
+		<tip id="6">TIP 6</tip>
+		<tip id="7">Getting this tip gives you a lot of luck in future! ...wait a second...</tip>
+	</peer>
+	
+	<ts>
+		<ver>Version {0}, Made by Bit Studio</ver>
+		<username>
+			<title>Set your username</title>
+			<desc>Set your username, that will be seen in game. WARNING: if there's a player with a nick like yours, it will get extended by special id.</desc>
+		</username>
+	</ts>
+	
+	<buttons>
+		<gtplayers>LIST OF PLAYERS</gtplayers>
+		<gtroles>ROLES</gtroles>
+		<gtmain>MAIN PANEL</gtmain>
+	</buttons>
+	
+	<error>
+		<title>ERROR</title>
+		<btn>OK</btn>
+		<btndsc>DISCONNECTING...</btndsc>
+		
+		<errorcode>Error code: </errorcode>
+		
+		<playerdisconnected>One of the players has disconnected. Game has been stopped.</playerdisconnected>
+		<hostdisconnected>Host has disconnected. Game has been stopped.</hostdisconnected>
+		
+		<footer>You will be sent back to Main Menu</footer>
+	</error>
+	
+	<general>
+		<showmyrole>
+			<urroleis>Your role is...</urroleis>
+		</showmyrole>
+		<holdtorevealrole>(hold here, to reveal your role)</holdtorevealrole>
+		<vote>Vote for a player that you want to be hanged.</vote>
+		
+		<skipvote>Skip voting</skipvote>
+		
+		<winners>
+			<wtown>TOWN WON!</wtown>
+			<wmafia>MAFIA WON!</wmafia>
+			<tie>TIE!</tie>
+		</winners>
+		<backtolobby>Go back to Lobby</backtolobby>
+	</general>
+	
+	<game>
+		<time>Time: {0}</time>
+		<day>DAY {0}</day>
+		<night>NIGHT {0}</night>
+		<dtime>DISCUSION TIME</dtime>
+		<vtime>VOTING TIME</vtime>
+		
+		<deathreason id="1">{0} died because of Mafia Member</deathreason>
+		<deathreason id="2">{0} died protecting someone</deathreason>
+		
+		<nodeath>Noone died this night</nodeath>
+		
+		<willleft>{0} has left Last Will</willleft>
+		<nowill>{0} hasn't left any Last Will</nowill>
+		<rrole>{0}'s role was {1}.</rrole>
+		
+		<revived>{0} has been revived!</revived>
+		
+		<skipvote>Voting, for this day, has been skipped</skipvote>
+		<hanged>{0} has been hanged.</hanged>
+		<tievote>It's a tie. Noone was hanged this day.</tievote>
+		
+		<lastwilltype>(type your last will)</lastwilltype>
+		
+		<mafiachat>MAFIA CHAT</mafiachat>
+		<lastwill>LAST WILL</lastwill>
+		<deadchat>DEAD CHAT</deadchat>
+		
+		<mafiachattype>Type your message here...</mafiachattype>
+	</game>
+
+	<roles>
+	
+		<role1>Villager1</role1>
+		<role1desc>You are a normal Villager without any special ability</role1desc>
+		
+		<role2>Doctor1</role2>
+		<role2desc>As doctor you can heal, lol</role2desc>
+		
+		<role3>Bodyguard1</role3>
+		<role3desc>You can protect someone at night</role3desc>
+		
+		<role4>Mafia1</role4>
+		<role4desc>Kill them all</role4desc>
+		
+		<role5>Seer1</role5>
+		<role5desc>See someone's role</role5desc>
+		
+		<role6>Medium1</role6>
+		<role6desc>Chat with dead people and revive them</role6desc>
+		
+		<role7>Consigliere1</role7>
+		<role7desc>See someone's role and tell about it to other Mafia members</role7desc>
+		
+		
+		<!-- VILLAGER -->
+		<villinfo>At night, you don't have to do anything.</villinfo>
+		
+		<!-- DOCTOR -->
+		<docinfo>Choose a player (or yourself) to heal them. This player will not die this night.</docinfo>
+		
+		<!-- BODYGUARD -->
+		<bginfo>Choose a player to protect them. If protected player will be attacked, you will take damage. AT first attack you will survive, but on a next - you will die. Every night you are also automaticaly bodyguarded.</bginfo>
+		
+		<!-- MAFIA -->
+		<mafinfo>Choose a player to kill them.</mafinfo>
+		
+		<!-- SEER -->
+		<seerinfo>Choose a player to check his role.</seerinfo>
+		<seerbtn>CHECK</seerbtn>
+		<seerck>Checking...</seerck>
+		<seerdontcheck>Don't check anyone</seerdontcheck>
+		<!-- MEDIUM -->
+		<medinfo>Choose a player to revive him. (only once per game)</medinfo>
+		<medinfo2>You have already revived someone. Talk with deads to get more info</medinfo2>
+		
+		<meddontrevive>Don't revive anyone</meddontrevive>
+		
+		<!-- CONSIGLIERE -->
+		<coninfo>Choose player to check his role.</coninfo>
+		<conbtn>CHECK</conbtn>
+		<conck>Checking...</conck>
+		<condontcheck>Don't check anyone</condontcheck>
+	</roles>
+</file>

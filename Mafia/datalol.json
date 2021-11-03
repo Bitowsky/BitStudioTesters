@@ -1,0 +1,98 @@
+{
+"c2array":true,
+"size":[13,6,1],
+"data":[[
+
+["Placeholder Card"],
+["Content 01 - Card 00"],
+["Content 02 - Card 00"],
+["Content 03 - Card 00"],
+["Content 04 - Card 00"],
+["Content 05 - Card 00"]
+],[
+["Card 01"],
+["Content 01 - Card 01"],
+["Content 02 - Card 01"],
+["4"],
+["5"],
+["2"]
+],[
+["Card 02"],
+["Content 01 - Card 02"],
+["Content 02 - Card 02"],
+["5"],
+["1"],
+["1"]
+],[
+["Card 03"],
+["Content 01 - Card 03"],
+["Content 02 - Card 03"],
+["8"],
+["5"],
+["2"]
+],[
+["Card 04"],
+["Content 01 - Card 04"],
+["Content 02 - Card 04"],
+["5"],
+["5"],
+["1"]
+],[
+["Card 05"],
+["Content 01 - Card 05"],
+["Content 02 - Card 05"],
+["5"],
+["6"],
+["1"]
+],[
+["Card 06"],
+["Content 01 - Card 06"],
+["Content 02 - Card 06"],
+["0"],
+["1"],
+["1"]
+],[
+["Card 07"],
+["Content 01 - Card 07"],
+["Content 02 - Card 07"],
+["5"],
+["2"],
+["2"]
+],[
+["Card 08"],
+["Content 01 - Card 08"],
+["Content 02 - Card 08"],
+["1"],
+["8"],
+["8"]
+],[
+["Card 09"],
+["Content 01 - Card 09"],
+["Content 02 - Card 09"],
+["2"],
+["2"],
+["3"]
+],[
+["Card 10"],
+["Content 01 - Card 10"],
+["Content 02 - Card 10"],
+["2"],
+["8"],
+["2"]
+],[
+["Card 11"],
+["Content 01 - Card 11"],
+["Content 02 - Card 11"],
+["4"],
+["1"],
+["4"]
+],[
+["Card 12"],
+["Content 01 - Card 12"],
+["Content 02 - Card 12"],
+["1"],
+["0"],
+["0"]
+
+]]
+}

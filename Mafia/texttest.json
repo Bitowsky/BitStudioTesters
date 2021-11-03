@@ -1,0 +1,21 @@
+"https://www.website.com/myjson.json"[/code:3mnqjx6j]
+
+*[i]Set JSON[/i]:
+[code:3mnqjx6j]
+"{
+  ""array"": [
+    1,
+    2,
+    3
+  ],
+  ""boolean"": true,
+  ""null"": null,
+  ""number"": 123,
+  ""object"": {
+    ""a"": ""b"",
+    ""c"": ""d"",
+    ""e"": ""f""
+  },
+  ""string"": ""Hello World""
+}"
+[/code:3mnqjx6j]
