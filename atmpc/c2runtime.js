@@ -32906,7 +32906,6 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.Button.prototype.cnds.OnClicked,
 	cr.plugins_.AJAX.prototype.acts.Request,
 	cr.plugins_.filechooser.prototype.exps.FileURLAt,
-	cr.plugins_.Browser.prototype.acts.Alert,
 	cr.plugins_.Button.prototype.acts.SetText,
 	cr.plugins_.Arr.prototype.acts.JSONDownload
 ];};
