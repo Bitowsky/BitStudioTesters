@@ -12,7 +12,10 @@
 			}	
 			h2 {
 				font-family: vcr_osd_monoregular;
-			}	
+			}
+			h2.bg {
+				background-color: gray;
+			}
 			h5 {
 				font-family: vcr_osd_monoregular;
 			}	
@@ -36,15 +39,43 @@
 			  100% { transform: translate(0px, 0px) rotate(0deg); }
 			}
 			
-			img:hover {
+			img.h:hover {
 			  animation: pulse 2s;
 			  animation-iteration-count: infinite;
+			}
+
+			img.h2 {
+				transition: 1s;
+			}
+
+			img.h2:hover {
+				height:74px;
+				width: 74px;
 			}
 			
 			@keyframes pulse {
 			  0% {height:130px; width: 450px}
 			  50% {height:150px; width: 490px; transform: translate(0px, -7px)}
 			  100% {height:130px; width: 450px}
+			}
+
+			@keyframes pulse2 {
+			  0% {height:130px; width: 450px}
+			  50% {height:150px; width: 490px; transform: translate(0px, -7px)}
+			  100% {height:130px; width: 450px}
+			}
+
+			.column {
+			float: left;
+			width: 16%;
+			padding: 10px;
+			}
+
+			/* Clear floats after the columns */
+			.row:after {
+			content: "";
+			display: table;
+			clear: both;
 			}
 		</style>
 	</head>
@@ -58,15 +89,30 @@
 	<article class="area2">
 		<h1 align="center">Game List</h1>
 		<hr>
-		<h2 align="center">Where is my Pointer?</h2>
-		<a href="/BitStudioTesters/wimp1.2dev2/index.html"><p align="center"><img src="wimplogo.png"></p></a>
+		<h2 align="center" class="bg">Where is my Pointer?</h2>
+		<a href="/BitStudioTesters/wimp1.2dev2/index.html"><p align="center"><img src="wimplogo.png" class="h"></p></a>
 		<br>
 		<br>
 		<a href="http://www.mediafire.com/file/cj852chuikebh6k/langen_testers.xml/file"><h2 align="center">Translation File</h2></a>
 		<hr>
-		<h2 align="center">Mafia</h2>
-		<a href="/BitStudioTesters/Mafia/index.html"><p align="center"><img src="mainlogo.png"></p></a>
+		<h2 align="center" class="bg">Mafia</h2>
+		<a href="/BitStudioTesters/Mafia/index.html"><p align="center"><img src="mainlogo.png" class="h"></p></a>
 		<h2 align="center">Translation File (not avaliable yet)</h2>
+		<hr>
+		<h2 align="center" class="bg">Around The Magnet</h2>
+		<p align="center"><img src="magnetlogo.png"></p>
+		<h2 align="center">
+			<p>Manual Savestates!</p>
+			<p>Scared of losing progress? Don't worry! Now you can save and load a progress file to your device.<p>
+			<a href="atmpc/index.html"><img src="magnetbtn/htmlbtnpc.png" class="h2"></a>
+			<p>PC VERSION</p>
+			<br>
+			<a href="atmmob/index.html"><img src="magnetbtn/htmlbtnmob.png" class="h2"></a>
+			<p>MOBILE VERSION</p>
+			<p style="color: red;">WARNING!<br>CHANGES FOR MOBILE VERSION (spoilers, if you haven't played the game):</p>
+			<p>- To finish a level, you have to double-tap on green area<br>- Camera will move only, when you tap on a specific screen edge (f.e.: moving camera upward requieres holding finger on top of your screen)<br>- Change for Ending Section (watch carefully ☺)<br></p>
+		</h2>
+		
 	</article>
 	<br>
 	<br>
